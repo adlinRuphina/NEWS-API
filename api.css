@@ -1,0 +1,234 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+body {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'poppins' sans-serif;
+}
+Section {
+  background-color: #fff;
+  padding: 10px;
+  margin: 0px;
+  /* flex-direction: column;*/
+}
+.head a {
+  color: red;
+  font-weight: bold;
+}
+.Head_Center ul li {
+  list-style: none;
+  border: none;
+}
+.Head_Center ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+  padding: 15px;
+}
+.Head_Center ul div {
+  padding: 15px;
+}
+.Head_Center i {
+  font-size: 15px;
+  color: red;
+}
+.Head_Center ul li a {
+  padding: 0px 10px;
+  font-weight: normal;
+  font-size: 30px;
+  text-decoration: blue;
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  /* padding: 20px;*/
+}
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+.navbar-nav ml-auto {
+  display: flex;
+  list-style: none;
+}
+/*
+.navbar-nav ul {
+  text-decoration: none;
+  border: none;
+}
+.navbar-nav li {
+  font-size: 20px;
+}
+*/
+.navbar-nav li a {
+  padding: 0px 10px;
+  text-decoration: none;
+}
+.navbar-nav li a {
+  padding-right: 20px;
+  text-decoration: none;
+}
+/* second part */
+#header_second {
+  background-color: cyan;
+  padding: 10px;
+  margin: 0px;
+}
+
+#header_second div {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#header_second img {
+  padding-right: 10px;
+}
+
+#header_second ul {
+  border: none;
+}
+#header_second ul li {
+  border: none;
+  text-decoration: none;
+  padding-top: 20px;
+  font-size: 32px;
+  padding-left: 10px;
+}
+
+#header_second h3 {
+  padding-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+#articlesContent img {
+  height: 150px;
+  width: 100%;
+}
+/*sports section*/
+.container h2 {
+  border: 1px solid #111;
+  background-color: deepskyblue;
+}
+ul li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 3px;
+  font-size: 14px;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#sportsSection,
+#scienceSection,
+#healthSection {
+  border-right: 1px solid #ccc;
+  /* overflow: scroll;*/
+  height: 100%;
+  background: #fff;
+  box-shadow: 1px 1px 3px 1px #ccc;
+}
+.container a {
+  text-decoration: none;
+}
+
+#articlesContent .enterImg {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#articleContent .row {
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  width: unset;
+}
+#entertainmentAllTemplate span {
+  padding-left: 0px;
+  font-size: 15px;
+}
+
+#entertainmentAllTemplate ul li {
+  border: none;
+}
+
+.text-muted {
+  font-size: 11px;
+  text-transform: capitalize;
+  padding: 0px 8px;
+}
+
+#corona h3 {
+  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-left: 2px;
+  color: blueviolet;
+}
+#covid19 {
+  background-color: bisque;
+}
+#covid19 h4 {
+  color: red;
+}
+
+#covid19 .clr {
+  color: green;
+}
+
+#covidBlock section {
+  display: flex;
+}
+
+#covidBlock section div {
+  background: #fff;
+
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 5px 1px #eee;
+  margin: 3px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#covidBlock section div h4 {
+  margin: 4px 10px 4px 0px;
+  padding: 7px;
+}
+
+/*
+.icon img {
+  height: 39px !important;
+  width: auto !important;
+  object-fit: scale-down;
+}
+
+#weatherTemplate .card-body p,
+#weatherTemplate span {
+  padding: 4px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #03a9f4;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  margin: 10px;
+}
+
+#weatherTemplate .card-body div {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}*/

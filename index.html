@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Api</title>
+    <link rel="stylesheet" href="api.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap-grid.css"
+    />
+  </head>
+  <body>
+    <section id="Header_Section">
+      <article>
+        <div class="Head_Center">
+          <ul>
+            <li><a href="">News</a></li>
+            <li>
+              <a href=""><i class="fas fa-dot-circle"></i>Live Tv</a>
+            </li>
+            <li class="head"><a href="">India Today</a></li>
+            <li><a href="">App</a></li>
+            <li><a href="">Magazine</a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <!---second header-->
+    <section id="header_second">
+      <article>
+        <div>
+          <nav>
+            <!--left menu-->
+           <img src="./img/logo.jpg" alt="">
+
+           
+
+            <!--right-->
+<h3>We can Bring the change</h3>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="fal fa-tv-retro"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="fas fa-share-alt"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="fas fa-user"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </article>
+    </section>
+    <!--corona detail-->
+    <section id="corona">
+      <article>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+<h3>Corona Details</h3>
+
+<li class="nav-item">
+<a class="nav-link" id="covidBlock"></a>
+          </li>
+        </li>
+ </ul>
+      </article>
+    </section>
+<!--ends here-->
+  <section>
+      <article class="container">
+        <div id="articlesContent">
+          <div class="row">
+            <div class="col-md-3" >
+              <h2 class="p-1 border-bottom text-white font-weight-bold bg-primary mt-2 text-uppercase ">Sports news</h2>
+              <div id="sportsSection">
+<div id="sportsFirstTemplate"></div>
+<div id="sportsAllTemplate"></div>
+              </div>
+            </div> <!--sports--->
+            <!--health--->
+<div class="col-md-3">
+<h2 class="p-1 border-bottom text-white font-weight-bold bg-primary mt-2 text-uppercase ">Science news</h2>
+<div id="scienceSection">
+  <div id="scienceFirstTemplate"></div>
+  <div id="scienceAllTemplate"></div>
+</div>
+</div>
+<!--science-->
+<div class="col-md-3">
+  <h2 class="p-1 border-bottom text-white font-weight-bold bg-primary mt-2 text-uppercase ">Health news</h2>
+  <div id="healthSection">
+    <div id="healthFirstTemplate"></div>
+    <div id="healthAllTemplate"></div>
+  </div>
+</div>
+
+<!--science-->
+
+            
+
+<div class="col-md-3 ml-auto p-0">
+  <h2 class="p-1 border-bottom text-white font-weight-bold bg-primary mt-2 text-uppercase">Entertainment News</h2>
+  <div id="enterainmentSection">
+    <div id="entertainmentAllTemplate"></div>
+  </div>
+</div> <!--entertainment-->
+
+        </div>
+      </article>
+  </section>
+    <script src="./js/api.js"></script>
+    <script src="./js/enterApi.js"></script>
+    <script src="./js/covid19.js"></script>
+    <script src="./js/science Api.js"></script>
+   <script src="./js/health.js"></script>
+   
+   
+  </body>
+</html>
